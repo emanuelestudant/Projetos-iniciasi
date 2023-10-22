@@ -1,0 +1,59 @@
+body{
+    background-color: lightblue;
+
+}
+h1{
+    color: rgb(16, 50, 80);
+    margin-left: 20px;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-family: verdana;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b9808ed1;
+}
+li{
+    float: block;
+}
+li a{
+    display: block;
+    color: rgb(111, 9, 9);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+nav { 
+    position: center;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+
+
+}
+
+nav a { /*esta parte é a visual do menu*/
+    text-transform: uppercase; /*Palavras do Menu em letras MAIÚSCULAS*/
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav :hover { /*referente ao link quando o usuário passar o mouse no menu */
+    color: #c78c19;
+    text-decoration: underline;
+}
+  
